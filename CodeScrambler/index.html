@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeScrambler </title>
+    <link rel = "stylesheet" href = "style.css"> 
+</head>
+<body>
+    <h1 >Enter Code Here:</h1>
+    <div>
+        
+    <textarea id="Code"> </textarea>
+    <!-- <script type="text/javascript">
+        textarea = document.querySelector("#Code");
+        textarea.addEventListener('input', autoResize, false);
+              
+        function autoResize() {
+            this.style.height = 'auto';
+            this.style.height = this.scrollHeight + 'px';
+        }
+    </script> -->
+    <br>
+    <input type = "submit" value="Submit" id = "EnterCode">
+    <br>
+    <textarea id="codeman"> </textarea>
+    <script type="text/javascript">
+        textarea = document.querySelector("textarea");
+        textarea.addEventListener('input', autoResize, false);
+              
+        function autoResize() {
+            this.style.height = 'auto';
+            this.style.height = this.scrollHeight + 'px';
+        }
+    </script>
+    <input type = "button" id = "copyButton" value = "copy">
+    </div><br>
+    
+    <script src = "java.js"></script>
+
+
+</body>
+</html>
